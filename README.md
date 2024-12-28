@@ -1,62 +1,63 @@
 # **Information Security Project: Wi-Fi Jammer**
 
 ## **Introduction**  
-The Wi-Fi Jammer is an advanced Python-based tool designed to simulate deauthentication attacks within a controlled and authorized environment. This project aims to highlight potential vulnerabilities in wireless networks, offering valuable insights for security researchers and professionals to strengthen network defenses.  
+The Wi-Fi Jammer is a sophisticated Python-based tool designed to simulate deauthentication attacks within a controlled and authorized environment. This project is intended to raise awareness about vulnerabilities in wireless networks, offering practical insights for security researchers and professionals to enhance network defenses.  
 
-**⚠️ Note: This tool is intended solely for educational and ethical use. Unauthorized deployment is strictly prohibited.**
+**⚠️ Important:** This tool is exclusively for educational and ethical use. Unauthorized deployment is strictly prohibited and may have legal consequences.
 
 ---
 
 ## **Key Features**  
-- **Device Disconnection:** Sends deauthentication packets to disconnect all devices connected to a specific Wi-Fi access point.  
-- **Simulation for Testing:** Provides a realistic simulation of deauthentication attacks to evaluate wireless security.  
-- **Security Assessment:** Assists in identifying weaknesses in Wi-Fi networks and devising appropriate countermeasures.
+- **Comprehensive Device Disconnection:** Sends deauthentication packets to disconnect all devices connected to a specified Wi-Fi access point.  
+- **Realistic Simulation:** Provides an authentic representation of deauthentication attacks for security evaluation and learning.  
+- **Proactive Security Assessment:** Facilitates the identification of vulnerabilities in Wi-Fi networks and supports the development of effective countermeasures.  
 
 ---
 
 ## **System Requirements**  
-Ensure the following prerequisites are met before using the tool:  
+To utilize this tool, ensure the following prerequisites are met:  
 1. **Python Environment:** Python 3 installed.  
 2. **Libraries and Tools:**  
-   - [Scapy Library](https://scapy.net): For crafting and transmitting network packets.  
-   - [Aircrack-ng Suite](https://www.aircrack-ng.org): For handling Wi-Fi network tasks.  
-3. **Hardware:** A Wi-Fi adapter supporting monitor mode and packet injection capabilities.
+   - [Scapy Library](https://scapy.net): Used for crafting and transmitting network packets.  
+   - [Aircrack-ng Suite](https://www.aircrack-ng.org): Essential for managing Wi-Fi network tasks.  
+3. **Hardware:** A Wi-Fi adapter capable of monitor mode and packet injection.
 
 ---
 
 ## **Installation & Usage**  
-1. **Installation:**  
-   - Install Python and ensure `pip` is available for package management.  
-   - Install the Scapy library:  
-     ```bash
-     pip install scapy
-     ```  
-   - Set up the Aircrack-ng suite and configure your Wi-Fi adapter in monitor mode.
 
-2. **Execution:**  
-   - Clone the repository or download the script (`deauth.py`).  
-   - Run the script in a terminal:  
-     ```bash
-     python deauth.py
-     ```  
-   - Follow the on-screen instructions to perform the attack simulation on a **pre-authorized** Wi-Fi network.
+### **Installation:**  
+1. Install Python and verify the availability of `pip` for package management.  
+2. Install the Scapy library by running:  
+   ```bash
+   pip install scapy
+   ```  
+3. Set up the Aircrack-ng suite and configure your Wi-Fi adapter to operate in monitor mode.
 
-3. **Documentation:**  
-   - Refer to the detailed project report for setup, execution, and troubleshooting.
+### **Execution:**  
+1. Clone the repository or download the script (`deauth.py`).  
+2. Open a terminal and execute the script:  
+   ```bash
+   python deauth.py
+   ```  
+3. Follow the on-screen prompts to conduct the attack simulation on a **pre-authorized** Wi-Fi network.
+
+### **Documentation:**  
+For a detailed explanation of the setup, execution process, and troubleshooting steps, refer to the accompanying project report.
 
 ---
 
 ## **Educational Objectives**  
-This project demonstrates:  
-- **Wireless Vulnerabilities:** Understanding the risks associated with insecure Wi-Fi configurations.  
-- **Deauthentication Mechanisms:** Insights into how deauthentication packets can disrupt wireless networks.  
-- **Security Best Practices:** Emphasis on implementing robust encryption and authentication protocols to prevent such attacks.
+This project is designed to:  
+- **Expose Wireless Vulnerabilities:** Highlight the risks associated with insecure Wi-Fi configurations.  
+- **Explain Deauthentication Attacks:** Provide insights into how deauthentication packets can disrupt wireless connectivity.  
+- **Promote Security Best Practices:** Advocate for the implementation of robust encryption and authentication protocols to prevent such attacks.  
 
 ---
 
 ## **Legal Disclaimer**  
-This tool is developed for **educational purposes only** to raise awareness about wireless network vulnerabilities. **Unauthorized use is strictly prohibited** and may lead to legal consequences. Always obtain explicit permission before testing on any network.  
+This tool is developed exclusively for **educational purposes** to raise awareness about wireless network vulnerabilities. **Unauthorized use is strictly prohibited** and may result in severe legal consequences. Ensure explicit permission is obtained before testing any network.  
 
-**The creators are not liable for any misuse or damages resulting from unauthorized application of this tool.**
+**The developers are not liable for any misuse or damages arising from the unauthorized application of this tool.**
 
 ---
