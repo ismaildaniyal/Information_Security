@@ -1,16 +1,45 @@
-# Information_Security
-# Project-1 Wi-Fi Jammer
-Wi-Fi Jammer is a Python script designed to simulate a deauthentication attack in a controlled and authorized environment. This tool demonstrates how wireless networks can be disrupted by sending deauthentication packets to all devices connected to a specific access point. It is intended for educational purposes only to understand wireless network vulnerabilities and improve their defenses.
-# Features
-Disconnects all devices connected to a specific Wi-Fi access point.
-Simulates real-world deauthentication attacks for educational and testing purposes.
-Helps assess the security of wireless networks and develop countermeasures.
-# Requirements
-Python 3
-Scapy library
-Aircrack-ng suite
-A Wi-Fi adapter capable of monitor mode and packet injection.
-# Usage
-See the full report in order to conduct this attack.The script of python is saved as deauth.py format.
-# Disclaimer
-This project is for educational purposes only. Do not use it on networks or devices you do not own or have explicit permission to test. Unauthorized use of this script is illegal and unethical.
+# **Information Security Project: Wi-Fi Jammer**
+
+## **Overview**
+The Wi-Fi Jammer is a Python-based tool designed to simulate deauthentication attacks in a secure and authorized environment. By disrupting wireless network connectivity, this project aims to educate users about vulnerabilities in Wi-Fi networks and inspire the development of stronger defenses. **This tool is strictly for educational purposes and authorized use only.**
+
+---
+
+## **Key Features**
+- Disconnects all devices connected to a specified Wi-Fi access point.
+- Simulates real-world deauthentication attacks for learning and testing.
+- Enables security professionals to assess wireless network vulnerabilities and design effective countermeasures.
+
+---
+
+## **Requirements**
+To use the Wi-Fi Jammer, ensure you have the following:
+- **Python 3**  
+- **Scapy library**: For crafting and sending network packets.  
+- **Aircrack-ng suite**: For managing wireless network tasks.  
+- **Wi-Fi adapter**: Capable of monitor mode and packet injection.
+
+---
+
+## **Usage**
+To conduct a simulated deauthentication attack:
+1. Review the full project report for detailed instructions.  
+2. Ensure all hardware and software requirements are met.  
+3. Execute the Python script (`deauth.py`) within a controlled environment.  
+
+**Important:** Always verify explicit authorization before testing on any network.
+
+---
+
+## **Educational Value**
+This project is a hands-on demonstration of:
+- Wireless network vulnerabilities.  
+- The risks posed by deauthentication attacks.  
+- The importance of implementing robust security protocols in Wi-Fi networks.
+
+---
+
+## **Disclaimer**
+This project is for **educational and ethical purposes only**. Unauthorized use of this tool on networks or devices without explicit permission is illegal and unethical. The creators bear no responsibility for misuse of the script.
+
+---
